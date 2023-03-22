@@ -25,7 +25,7 @@ root@ipa:~$ podman run -d --name divisora_freeipa --dns=127.0.0.1 -h ipa.domain.
 change /etc/systemd/resolved.conf to point to 10.0.0.1
 ```
 
-## Setup up permissions
+## Setup permissions
 ### ipa.domain.internal
 ```
 root@ipa:~$ kinit admin
